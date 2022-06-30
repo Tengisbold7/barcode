@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "barcode",
+    "slug": "barcode",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.munkhundral.barcode"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.munkhundral.barcode"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/munkhundralb/barcode"
+  }
+}
+
